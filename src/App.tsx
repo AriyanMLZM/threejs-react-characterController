@@ -1,6 +1,10 @@
+import { Scene } from "./components"
+
 const App = () => {
   return (
-    <div className="text-[30px] bg-black text-white">App</div>
+    <main className="w-screen h-screen bg-black overflow-hidden">
+      <Scene />
+    </main>
   )
 }
 
